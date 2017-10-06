@@ -1,5 +1,5 @@
 /**
- * Horoscope Project for IB SL Computer Science
+ * Horoscope Project for IB SL Computer Science -
  * Created by Sarah Blankespoor on 9/27/17.
  */
 
