@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="sheet.css">
+    <meta charset="UTF-8">
+    <title>Horoscope</title>
+
+
+
+</head>
+<body>
+<div id="uglyStarClipart">
+    <img src="http://clipartix.com/wp-content/uploads/2016/04/Clipart-stars.png" style="width:50px">
+</div>
+
+<div id="pageTitle" class="writtenText">Discover Your Horoscope!</div>
+
+<div id="getName">
+    <label for="name"> Name: </label>
+    <input type="text" id="name" value="" size="25">
+</div>
+
+<div id="pickMonth">
+    <label for="month"> Birth month: </label>
+    <select id="month">
+        <option value="1">january</option>
+        <option value="2">february</option>
+        <option value="3">march</option>
+        <option value="4">april</option>
+        <option value="5">may</option>
+        <option value="6">june</option>
+        <option value="7">july</option>
+        <option value="8">august</option>
+        <option value="9">september</option>
+        <option value="10">october</option>
+        <option value="11">november</option>
+        <option value="12">december</option>
+    </select>
+</div>
+
+<div id="pickDay">
+    <label for="day">Birthday: </label>
+    <select id="day">
+        <option value="01">1</option>
+        <option value="02">2</option>
+        <option value="03">3</option>
+        <option value="04">4</option>
+        <option value="05">5</option>
+        <option value="06">6</option>
+        <option value="07">7</option>
+        <option value="08">8</option>
+        <option value="09">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+    </select>
+</div>
+
+<div id="pickTodayMonth">
+    <label for="todayMonth">Current month: </label>
+    <select id="todayMonth">
+        <option value="1">january</option>
+        <option value="2">february</option>
+        <option value="3">march</option>
+        <option value="4">april</option>
+        <option value="5">may</option>
+        <option value="6">june</option>
+        <option value="7">july</option>
+        <option value="8">august</option>
+        <option value="9">september</option>
+        <option value="10">october</option>
+        <option value="11">november</option>
+        <option value="12">december</option>
+    </select>
+</div>
+
+<div id="pickTodayDay">
+    <label for="todayDay">Current day: </label>
+    <select id="todayDay">
+        <option value="01">1</option>
+        <option value="02">2</option>
+        <option value="03">3</option>
+        <option value="04">4</option>
+        <option value="05">5</option>
+        <option value="06">6</option>
+        <option value="07">7</option>
+        <option value="08">8</option>
+        <option value="09">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+    </select>
+</div>
+
+<button id="submitButton" onclick="onSubmit()">submit</button>
+
+<div id="returnImage"></div>
+
+<div id="signDetermined"></div>
+
+<div id="horoscope" class="tellingOfFortune"></div>
+
+<div id="birthdayHoroscope" class="tellingOfFortune"></div>
+
+<div id="uglyStarClipartTwo">
+    <img src="http://clipartix.com/wp-content/uploads/2016/04/Clipart-stars.png" style="width:50px">
+</div>
+
+</body>
+</html>
